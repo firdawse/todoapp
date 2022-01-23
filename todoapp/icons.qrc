@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>done.png</file>
+        <file>work.png</file>
+        <file>style.css</file>
+        <file>text.txt</file>
+    </qresource>
+</RCC>
