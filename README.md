@@ -341,7 +341,10 @@ The MVC architecture offers you to separate the elements of your program into 3 
 
  - **The controller**: this the most algorithmic part, it's the brain of your program .
 
-![](https://user.oc-static.com/files/120001_121000/120010.png)
+
+<p align="center">
+  <img  src="https://user.oc-static.com/files/120001_121000/120010.png">
+</p>
 
 ---
   
