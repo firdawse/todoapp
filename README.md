@@ -2,7 +2,6 @@
 
 
 ## Firdawse Guerbouzi - Meryem Badaoui
----
 
 The goal of the homework is to create an application to manage our tasks , sadly this will be our last practical session from this memorable module , so let's enjoy doing it !
 
