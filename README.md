@@ -157,7 +157,7 @@ void todo::SlotDeleteTask() {
 }
 ```
 ## Moving task from pending to done 
----
+
 Once the done button is clicked, the current task must be considered done and  shown on the done listWidget ,at the same time deleated from the pending frame 
 
 ``` c++
@@ -192,7 +192,7 @@ void todo::SlotDone(){
 ***another lines for saving are added in this slot , let's keep it to the part below***
 
 ## Saving
----  
+ 
 
 Our application is working perfectly **BUT** the tasks entered to our application must remains in the app in future use or it will have no sense to start from scratch each time .
 
@@ -391,7 +391,7 @@ void todomvc::on_pushButton_clicked()
 ![](7.PNG)
 
 ## selecting and clearing multiple items 
----
+
 to select multiples rows from QListView we've select an extendedMode from **QAbstractItemView **class 
 
 > ui->listView_2->setSelectionMode(QAbstractItemView::ExtendedSelection)  
@@ -430,7 +430,7 @@ and ofcourse we need to delete them from the database also
         connClose();
 ```
 ## Drag and drop 
----
+
 thank to the power of **MVC** this task  won't take much time , we 've used some propreties that hold the view's drag and drop behavior
 ``` c++
  ui->listView->setSelectionMode(QAbstractItemView::ExtendedSelection);
@@ -477,7 +477,7 @@ void todomvc::closeEvent(QCloseEvent *e)
 ```
 
 ## loading 
----
+
 
 last step is to handle the loading of data from database to our view 
 
