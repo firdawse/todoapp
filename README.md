@@ -28,7 +28,10 @@ The goal of the homework is to create an application to manage our tasks , sadly
  # *item based* model
  this is how our application will look like   
 
-![](1.PNG)
+
+<p align="center">
+  <img  src="1.PNG">
+</p>
 
 >let's start  
 
@@ -138,7 +141,9 @@ then , here is the connections of delete and done buttons
 ```
 Now each time we will add a task a widget will appear smoothly ,exactly like that
 
-![](2.PNG)
+<p align="center">
+  <img  src="2.PNG">
+</p>
 
 Now ,deleting a task ;
 
@@ -186,7 +191,9 @@ void todo::SlotDone(){
 ```  
 </br>  
 
-![](5.PNG)  
+<p align="center">
+  <img  src="5.PNG">
+</p> 
    
 
 ***another lines for saving are added in this slot , let's keep it to the part below***
@@ -344,7 +351,9 @@ this is how our application will looks like
  </br> 
 
 
-![](6.PNG)  
+<p align="center">
+  <img  src="6.PNG">
+</p>
 
 **too much details to handle , let's start!**
 
@@ -388,7 +397,9 @@ void todomvc::on_pushButton_clicked()
      connClose();
 }
 ```
-![](7.PNG)
+<p align="center">
+  <img  src="7.PNG">
+</p>
 
 ## selecting and clearing multiple items 
 
@@ -397,8 +408,9 @@ to select multiples rows from QListView we've select an extendedMode from **QAbs
 > ui->listView_2->setSelectionMode(QAbstractItemView::ExtendedSelection)  
 
 </br>
-
-![](81.PNG)  
+<p align="center">
+  <img  src="81.PNG">
+</p>  
 
 
 then , to delete them  we have used The **QModelIndex** class to locate data in a data model
