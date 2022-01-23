@@ -1,7 +1,7 @@
 # ToDo Application using containers 
 
----
-Firdawse Guerbouzi - Meryem Badaoui
+
+## Firdawse Guerbouzi - Meryem Badaoui
 ---
 
 The goal of the homework is to create an application to manage our tasks , sadly this will be our last practical session from this memorable module , so let's enjoy doing it !
@@ -444,7 +444,7 @@ thank to the power of **MVC** this task  won't take much time , we 've used some
 
 
 ## Saving 
----
+
 before closing our application , everything must be saved ,our status should remains the same 
 
 that why we've implement a saving function that linked our listView data to sqlite database 
